@@ -1,4 +1,5 @@
-import keys from '../../keys'
+import {keys} from '../../keys'
+import axios from 'axios'
 
 //variable to hold action type
 export const FETCH_WEATHER = 'FETCH_WEATHER'
