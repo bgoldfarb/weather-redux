@@ -14,3 +14,7 @@ ReactDOM.render(
     <App />
   </Provider>
   , document.querySelector('.container'));
+
+
+  //Provider acts as a dependency container that holds the store and makes it available for 'connect'
+  //Makes the redux store available to all connect calls 

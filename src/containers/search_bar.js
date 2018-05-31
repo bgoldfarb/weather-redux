@@ -46,6 +46,8 @@ import { fetchWeather } from '../actions/index'
     }
 }
 
+//is a utility which will help your component to fire an action event (dispatching action which may cause change of application state)
+
 function mapDispatchToProps(dispatch){
     return bindActionCreators({ fetchWeather }, dispatch)
 }
